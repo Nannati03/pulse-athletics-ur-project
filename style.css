@@ -1,0 +1,316 @@
+/* ================= resetcss ================= */
+*
+{
+padding: 0%;
+margin: 0%;
+box-sizing: border-box;
+}
+
+/* ================= General ================= */
+
+:root {
+    --primary-color: #211F1F;
+    --secondary-conlor: #8fa70e; 
+    --white: #ffffff;
+    --light-gray: #eeeeee;
+    --font-family: 'Michroma', sans-serif;
+    --font-size-small: 13px;
+    --font-size-base: 16px;
+    --font-size-medium: 18px;
+    --font-size-large: 20px;
+    --font-size-xl: 24px;
+    --font-size-xxl: 28px;
+    --font-size-hero: 4.5rem;
+    --font-size-hero-tablet: 3rem;
+    --font-size-hero-mobile: 2.5rem;
+
+    --font-weight-normal: 400;
+    --font-weight-medium: 500;
+    --font-weight-semibold: 600;
+    --font-weight-bold: 700;
+}
+
+body
+{
+background-image: url(img/herosection.png);
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;
+
+}
+/* ================= Herosektion ================= */
+
+#watch
+{
+position: relative;
+bottom: 0px;
+left:950px;
+}
+
+
+
+#box1
+{
+width:130px;
+height:45px;
+background-color: var(--secondary-conlor);
+border-radius: 20px;
+font-family:var(--font-family);
+font-size: 10px;
+color: white;
+text-align: right;
+position: absolute;
+    top: 30px;
+    right: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-color: var(--secondary-conlor);
+}
+
+
+#box2
+{
+width:130px;
+height:45px;
+background-color: var(--secondary-conlor);
+border-radius: 20px;
+font-family:var(--font-family);
+font-size: 15px;
+color: white;
+text-align: right;
+display: flex;
+align-items: center;
+justify-content: center;
+position: absolute;
+    bottom: 250px;
+    left: 150px;
+    border-color: var(--secondary-conlor);
+}
+
+h1{
+    color: white;
+    font-family:var(--font-family);
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 51px;
+    width: 363px;
+    height: 143px;
+    margin-left: 150px;
+}
+
+h2{
+   color: white; 
+   font-family:var(--font-family);
+   font-size: 24px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+   margin-left: 150px;
+}
+
+h3{
+color: white; 
+font-family:var(--font-family);
+
+}
+
+p{
+    color: #C8C8C8;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    margin-left: 150px;
+   
+}
+
+.logo {
+    position: absolute;
+
+    top: 30px;
+    left: 40px;
+
+    width: 140px;
+
+    z-index: 10;
+}
+
+.top-nav{
+    position: absolute;
+
+    top: 30px;
+    right: 40px;
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 25px;
+
+    z-index: 20;
+    background: transparent;
+ 
+   
+}
+
+.top-nav img{
+    width: 30px;
+    height: 30px;
+
+    object-fit: contain;
+     background: transparent;
+
+}
+
+#price
+{
+position: absolute;
+left: 20px;
+top: 550px;
+
+
+}
+#herosektion-tekst
+{
+position: absolute;
+top: 330px;
+    
+}
+
+/* ================= PRODUCTS ================= */
+
+
+.products
+{
+
+ 
+
+    padding: 50px;
+    margin:36px;
+    margin-top: 200px;
+    margin-bottom:200px;
+    background: linear-gradient(
+        120deg,
+        #555,
+        #292626
+    );
+
+    border-radius: 30px;
+
+}
+.product-cards
+{
+
+
+}
+.farve-tekst h3 {
+  margin: 0 0 40px;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: -1px;
+
+}
+
+.farvevalg {
+  width: fit-content;
+  padding: 20px 34px;
+
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  border: 10px solid #514b4d;
+  border-radius: 50px;
+  
+}
+
+/* ====== Knapper til tekst under producter ======= */
+.farve-knap {
+    display: flex; 
+    align-items: center; 
+    color: rgb(253, 252, 252);
+    border: white; 
+    background: none; 
+    
+
+}
+
+.farve.cirkel{
+    width: 27px;
+    height: 27px;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.farve-cirkel.sort {
+  background-color: #181818;
+}
+
+.farve-cirkel.graa {
+  background-color: #7c7b7b;
+}
+
+.farve-cirkel.groen {
+  background-color: #174e36;
+}
+
+/* ================= Funktioner ================= */
+#Funktioner
+{
+background-color: var(--primary-color);
+
+}
+.feature-tekst
+.feature-tekst ul {
+    color: #ffffff;
+    margin-left: 20%;
+    padding-left: 20%;
+}
+
+/* ================= App ================= */
+.New-app{
+background-color: var(--primary-color);
+}
+
+#download
+{
+width:100px;
+height:35px;
+background-color: var(--secondary-conlor);
+border-radius: 20px;
+font-family:var(--font-family);
+font-size: 10px;
+color: white;
+text-align: right;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#box-1{
+
+    display: flex; 
+    flex-direction: column; 
+    position: relative;
+    right: -50%;
+    bottom: 700px;
+    width: 30%;
+    text-align: left;
+    padding: 40px;
+    
+
+    background: linear-gradient(
+        120deg,
+        #555,
+        #292626
+    );
+
+    
+
+    border-radius: 20px;}
+
+    
+/* ================= Snoet linje med appens funktioner ================= */
+
