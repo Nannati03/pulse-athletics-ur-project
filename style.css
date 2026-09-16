@@ -319,3 +319,6 @@ text-align: right;
     
 /* ================= Snoet linje med appens funktioner ================= */
 
+.features{
+    width: 90%;
+}
