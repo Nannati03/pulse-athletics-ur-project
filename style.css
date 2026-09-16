@@ -180,6 +180,11 @@ top: 330px;
 
 /* ================= PRODUCTS ================= */
 
+#products
+{
+background-color: var(--primary-color);
+
+}
 
 .products
 {
