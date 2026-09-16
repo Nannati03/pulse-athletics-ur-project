@@ -37,8 +37,9 @@ background-size: cover;
 background-repeat: no-repeat;
 background-attachment: fixed;
 background-position: center;
-
+background-color: #242323;
 }
+
 /* ================= Herosektion ================= */
 
 #watch
@@ -327,6 +328,7 @@ text-align: right;
     display: grid; 
     align-items: center; 
     gap: 80px; 
+    background: #242323;
 }
 
 
@@ -438,4 +440,8 @@ text-align: right;
   width: 442px;
   max-width: 45%;
   height: auto;
+}
+
+.omvendt {
+  flex-direction: row-reverse;
 }
