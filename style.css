@@ -319,6 +319,123 @@ text-align: right;
     
 /* ================= Snoet linje med appens funktioner ================= */
 
-.features{
-    width: 90%;
+
+
+.feature{
+    min-height: 300px;
+    padding: 50px 90px;
+    display: grid; 
+    align-items: center; 
+    gap: 80px; 
+}
+
+
+.boks5{
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto; 
+    padding: 30px;
+
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
+.boks5 img {
+  display: block;
+  width: 442px;
+  max-width: 45%;
+  height: auto;
+}
+
+.boks6{
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto; 
+    padding: 30px;
+
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
+.boks6 img {
+  display: block;
+  width: 442px;
+  max-width: 45%;
+  height: auto;
+}
+
+.boks7{
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto; 
+    padding: 30px;
+
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
+.boks7 img {
+  display: block;
+  width: 442px;
+  max-width: 45%;
+  height: auto;
+}
+
+.boks8{
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto; 
+    padding: 30px;
+
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
+.boks8 img {
+  display: block;
+  width: 442px;
+  max-width: 45%;
+  height: auto;
+}
+
+.boks9{
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto; 
+    padding: 30px;
+
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
+.boks9 img {
+  display: block;
+  width: 442px;
+  max-width: 45%;
+  height: auto;
 }
